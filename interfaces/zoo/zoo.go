@@ -3,8 +3,8 @@ package zoo
 import (
 	"fmt"
 
-	"sandbox/interfaces/logger"
-	"sandbox/interfaces/zoo/animals"
+	"yp-examples/interfaces/logger"
+	"yp-examples/interfaces/zoo/animals"
 )
 
 //go:generate mockgen -s ./animals.go -d ./mock/mock_animals

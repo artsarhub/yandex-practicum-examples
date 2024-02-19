@@ -1,8 +1,8 @@
 package main
 
 import (
-	"sandbox/interfaces/logger"
-	"sandbox/interfaces/zoo"
+	"yp-examples/interfaces/logger"
+	"yp-examples/interfaces/zoo"
 )
 
 func main() {

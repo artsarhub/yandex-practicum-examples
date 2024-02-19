@@ -3,7 +3,7 @@ package animals
 import (
 	"fmt"
 
-	"sandbox/interfaces/logger"
+	"yp-examples/interfaces/logger"
 )
 
 type Cat struct {

@@ -1,4 +1,4 @@
-module sandbox
+module yp-examples
 
 go 1.21
 
