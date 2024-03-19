@@ -1,12 +1,11 @@
 package main
 
 import (
-	"yp-examples/interfaces/logger"
-	"yp-examples/interfaces/zoo"
+	"yp-examples/todo_server"
 )
 
 func main() {
-	log := logger.NewConsoleLogger()
+	//log := logger.NewConsoleLogger()
 	//log := logger.NewFileLogger("logs/service.log")
 
 	//log1 := logger.NewConsoleLogger()
@@ -20,5 +19,7 @@ func main() {
 	//log2.Warn("test warn message")
 	//log2.Error("test error message")
 
-	zoo.EmulateZoo(log)
+	//zoo.EmulateZoo(log)
+
+	todo_server.RunServer()
 }
