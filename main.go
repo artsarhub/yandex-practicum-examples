@@ -1,8 +1,6 @@
 package main
 
-import (
-	"yp-examples/todo_server"
-)
+import "yp-examples/multithreading"
 
 func main() {
 	//log := logger.NewConsoleLogger()
@@ -21,5 +19,15 @@ func main() {
 
 	//zoo.EmulateZoo(log)
 
-	todo_server.RunServer()
+	//todo_server.RunServer()
+
+	//multithreading.RunSay()
+	//multithreading.RunWgWorkers()
+	//multithreading.RunWorkersWithBuffering()
+	//multithreading.RunWorkersWithoutBuffering()
+	//multithreading.RunMutex()
+	//multithreading.RunRWMutex()
+	//multithreading.RunCtxExample()
+	//multithreading.RunDanglingRoutines()
+	multithreading.RunBonus()
 }
